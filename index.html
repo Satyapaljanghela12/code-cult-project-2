@@ -9,18 +9,23 @@
 <body>
 <header>
     <nav class="navigation">
-        <img src="/Screenshot_2024-11-14_232926-removebg-preview.png" alt="link">
-        <div class="links">
-            <a href="#home">Home</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#contact">contact</a>
-            <a href="#blog">blog</a>
-        </div>
-
+        <div class="logo">Simply</div>
+        <input type="checkbox" id="toggle-menu">
+        <label for="toggle-menu" class="hamburger">
+            <span class="line top"></span> 
+            <span class="line middle"></span> 
+            <span class="line bottom"></span> 
+            </label>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="#blog">Blog</a></li>
+            </ul>
     </nav>
 </header>
 
-<section id="page1">
+<section id="home" class="page1">
     <h3 class="boldTxt">A minimal clean</h3>
     <h3 class="lightTxt">layout for web desgin</h3>
     <button>get started</button>
